@@ -23,7 +23,7 @@ class Group {
   
   // Check if a member is a member of the group
   has(member) {
-    return (this.group.includes(member))
+    return this.group.includes(member);
   }
 
   // Create/update a group from an iterable object
